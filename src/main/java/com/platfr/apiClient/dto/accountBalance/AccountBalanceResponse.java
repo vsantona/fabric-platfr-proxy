@@ -1,8 +1,9 @@
 package com.platfr.apiClient.dto.accountBalance;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class AccountBalanceResponse implements Serializable{
+public class AccountBalanceResponse implements Serializable {
 
 
     String status;
