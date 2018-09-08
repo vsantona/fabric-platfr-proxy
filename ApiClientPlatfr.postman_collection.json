@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "8b5661e1-edca-4644-b116-87bab0315550",
+		"name": "ApiClientPlatfr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateSTCOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"receiverName\" : \"John Doe\",\n\t\"description\" : \"Payment invoice 75\",\n    \"currency\"  : \"EUR\",\n    \"amount\" : \"800.00\",\n   \"executionDate\" : \"2017-26-10\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/createSTCOrder/111111",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createSTCOrder",
+						"111111"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
