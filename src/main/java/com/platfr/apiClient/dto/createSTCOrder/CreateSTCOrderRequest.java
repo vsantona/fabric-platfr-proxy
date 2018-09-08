@@ -2,20 +2,26 @@ package com.platfr.apiClient.dto.createSTCOrder;
 
 import java.io.Serializable;
 
+/**
+ * Request of AccountBalance service
+ *
+ */
 public class CreateSTCOrderRequest implements Serializable {
-    private Long accountId;
     private String receiverName;
     private String description;
     private String currency;
     private String amount;
     private String executionDate;
 
-    public Long getAccountId() {
-        return accountId;
+    public CreateSTCOrderRequest() {
     }
 
-    public void setAccountId(Long accountId) {
-        this.accountId = accountId;
+    public CreateSTCOrderRequest(String receiverName, String amount, String currency, String description, String executionDate) {
+        this.receiverName = receiverName;
+        this.amount = amount;
+        this.currency = currency;
+        this.description = description;
+        this.executionDate = executionDate;
     }
 
     public String getReceiverName() {

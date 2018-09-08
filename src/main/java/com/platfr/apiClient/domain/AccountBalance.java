@@ -1,4 +1,4 @@
-package com.platfr.apiClient.dto.accountBalance;
+package com.platfr.apiClient.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

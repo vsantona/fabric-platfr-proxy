@@ -1,8 +1,14 @@
 package com.platfr.apiClient.dto.accountBalance;
 
+import com.platfr.apiClient.domain.AccountBalance;
+
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Response of AccountBalance service
+ *
+ */
 public class AccountBalanceResponse implements Serializable {
 
 
