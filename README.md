@@ -32,7 +32,7 @@ To use the Api client, open the Demo link on Heroku and use the following test l
 
 Account Balance : https://apiclient.herokuapp.com/getAccountBalance/11111
 
-Create STC Order : https://apiclient.herokuapp.com/createSTCOrder/111111/John Doe/800.00/EUR/Payment invoice 75/2017-26-10
+Create STC Order : https://apiclient.herokuapp.com/createSTCOrder/111111/John%20Doe/800.00/EUR/Payment%20invoice%2075/2017-26-10
 
 To call createSTCOrder with the POST operation you can use a postman collection test (ApiClientPlatfr.postman_collection.json) present in the project root.
 
