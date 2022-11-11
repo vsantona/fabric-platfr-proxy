@@ -1,4 +1,4 @@
-# API CLient Platfr.io
+# Fabric Platfr Proxy
 
 These APIs allow to manage the following operations on the account:
  - Balance reading;
